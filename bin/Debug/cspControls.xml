@@ -1,0 +1,150 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+cspControls
+</name>
+</assembly>
+<members>
+<member name="T:cspControls.My.Resources.Resources">
+<summary>
+  지역화된 문자열 등을 찾기 위한 강력한 형식의 리소스 클래스입니다.
+</summary>
+</member>
+<member name="P:cspControls.My.Resources.Resources.ResourceManager">
+<summary>
+  이 클래스에서 사용하는 캐시된 ResourceManager 인스턴스를 반환합니다.
+</summary>
+</member>
+<member name="P:cspControls.My.Resources.Resources.Culture">
+<summary>
+  이 강력한 형식의 리소스 클래스를 사용하여 모든 리소스 조회에 대해 현재 스레드의 CurrentUICulture 속성을
+  재정의합니다.
+</summary>
+</member>
+<member name="P:cspControls.My.Resources.Resources.chkBlue0">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspControls.My.Resources.Resources.chkBlue1">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspControls.My.Resources.Resources.chkGray0">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspControls.My.Resources.Resources.chkGray1">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspControls.My.Resources.Resources.chkRed0">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspControls.My.Resources.Resources.chkRed1">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspControls.My.Resources.Resources.minus_Hoon">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspControls.My.Resources.Resources.plus_Hoon">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspControls.My.Resources.Resources.r">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="M:cspControls.ComboCheckList.ComboCheckListCollection.Add(System.String,System.String[])">
+ <summary>아이템 추가</summary>
+ <param name="DisplayText">화면에 보이는 텍스트 정보</param>
+ <param name="Value">내부 정보</param>
+</member>
+<member name="M:cspControls.ComboCheckList.ComboCheckListCollection.Clear">
+ <summary>아이템 삭제</summary>
+</member>
+<member name="T:cspControls.MediaElementWPF">
+<summary>
+MediaElementWPF
+</summary>
+</member>
+<member name="M:cspControls.MediaElementWPF.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:cspControls.UserInputWithTab.Save">
+ <returns>-1: 저장실패 / 0:전체 DC / 1: 기초검사 저장 / 2: 정밀검사 저장</returns>
+</member>
+<member name="M:cspControls.UserFormMake.GetAlpha(System.Int32)">
+ <summary>숫자를 Alpha Column명으로 변경</summary>
+ <param name="IntValue">1부터 A</param>
+</member>
+<member name="M:cspControls.userInput.Save">
+ <returns>-1: 저장실패 / 0:전체 DC / 1: 기초검사 저장 / 2: 정밀검사 저장</returns>
+</member>
+<member name="M:cspControls.userInput.HeaderClear(FarPoint.Win.Spread.FpSpread[])">
+ <summary>헤더 정보 초기화</summary>
+ <param name="sprs">적용 스프레드</param>
+</member>
+<member name="M:cspControls.userInput.HeaderDisplay(FarPoint.Win.Spread.FpSpread[],cspModCommon.InputModel,cspModCommon.InputModel)">
+ <summary>헤더 정보 변경</summary>
+ <param name="sprs">적용 스프레드</param>
+ <param name="inR1">헤더텍스트</param>
+ <param name="inR2">헤더기타정보</param>
+</member>
+<member name="M:cspControls.userInput.#ctor">
+ <summary>사용자정의 입력컨트롤</summary>
+</member>
+<member name="M:cspControls.userInput.ValueExists(System.Int32,System.Boolean)">
+ <summary>데이터 존재여부</summary>
+ <param name="ChangedExists">False: 데이터 존재여부만 체크, True: 데이터 변경여부 체크</param>
+</member>
+<member name="M:cspControls.cls스프레드칼럼수정.FormLoad(FarPoint.Win.Spread.FpSpread,System.String)">
+ <summary>
+ 스프레드 칼럼 위치 조정 설정화면입니다. 
+ 기본 규칙 => spread속성 - AccessibleName에 값을 입력해야 기능을 사용할 수 있습니다..
+ 규칙 형태 => Assembly이름.Form이름.스프레드이름
+ </summary>
+ <param name="Spread">설정할 스프레드 변수</param>
+ <param name="Key">선택입력사항: Primarykey 부여</param>
+</member>
+<member name="M:cspControls.cls스프레드칼럼수정.FormLoad(FarPoint.Win.Spread.FpSpread,System.String,System.Int32,System.Int32)">
+ <summary></summary>
+ <param name="Spread"></param>
+ <param name="Key"></param>
+ <param name="lockCount">좌측부터 칼럼 잠금 갯수를 설정합니다. (이동 불가 설정)</param>
+ <param name="settingIndex">0: 컴퓨터별, 전체설정 모두 사용, 1: 컴퓨터별 설정만 사용, 2: 전체 설정만 사용</param>
+</member>
+<member name="M:cspControls.cls스프레드칼럼수정.SettingLoad(FarPoint.Win.Spread.FpSpread,System.String)">
+ <summary>FormLoad에서 설정한 값을 적용시키는 프로시저입니다.</summary>
+ <param name="Spread">설정할 스프레드 변수</param>
+ <param name="Key">선택입력사항: Primarykey 부여</param>
+</member>
+<member name="M:cspControls.cls스프레드칼럼수정.SettingLoad_AllSheet(FarPoint.Win.Spread.FpSpread,System.String)">
+ <summary>FormLoad에서 설정한 값을 적용시키는 프로시저입니다.</summary>
+ <param name="Spread">설정할 스프레드 변수</param>
+ <param name="Key">선택입력사항: Primarykey 부여</param>
+</member>
+<member name="M:cspControls.cls스프레드칼럼수정.SettingLoad(FarPoint.Win.Spread.FpSpread,System.String,System.String)">
+ <summary>
+ FormLoad에서 설정한 값을 적용시키는 프로시저입니다.
+ </summary>
+ <param name="Spread">설정할 스프레드 변수</param>
+ <param name="SheetName">설정할 스프레드 시트이름</param>
+ <param name="Key">선택입력사항: Primarykey 부여</param>
+</member>
+</members>
+</doc>

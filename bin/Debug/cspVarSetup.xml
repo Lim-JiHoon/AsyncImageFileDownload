@@ -1,0 +1,106 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+cspVarSetup
+</name>
+</assembly>
+<members>
+<member name="T:cspVarSetup.My.Resources.Resources">
+<summary>
+  지역화된 문자열 등을 찾기 위한 강력한 형식의 리소스 클래스입니다.
+</summary>
+</member>
+<member name="P:cspVarSetup.My.Resources.Resources.ResourceManager">
+<summary>
+  이 클래스에서 사용하는 캐시된 ResourceManager 인스턴스를 반환합니다.
+</summary>
+</member>
+<member name="P:cspVarSetup.My.Resources.Resources.Culture">
+<summary>
+  이 강력한 형식의 리소스 클래스를 사용하여 모든 리소스 조회에 대해 현재 스레드의 CurrentUICulture 속성을
+  재정의합니다.
+</summary>
+</member>
+<member name="F:cspVarSetup.clsVarSetup.SuRec.RollOnlyHCodeExists">
+ <summary>내역 없을 시 출력 안 함</summary>
+</member>
+<member name="F:cspVarSetup.clsVarSetup.SuRec.ir_use">
+ <summary>예방접종등록 사용여부</summary>
+</member>
+<member name="F:cspVarSetup.clsVarSetup.SuRec.ir_id">
+ <summary>예방접종등록 id</summary>
+</member>
+<member name="F:cspVarSetup.clsVarSetup.SuRec.ir_pwd">
+ <summary>예방접종등록 pwd</summary>
+</member>
+<member name="F:cspVarSetup.clsVarSetup.SuRec.ir_test">
+ <summary>예방접종등록 테스트 사용여부</summary>
+</member>
+<member name="F:cspVarSetup.clsVarSetup.SuRec.cs20_2_중복체크">
+ <summary>진료내역 중복체크 여부</summary>
+</member>
+<member name="F:cspVarSetup.clsVarSetup.SuRec.JuyoKwamok">
+ <summary>주요과목 1: 안과</summary>
+</member>
+<member name="F:cspVarSetup.clsVarSetup.SuRec.ReadingSetting">
+ <summary>열람 간편승인 설정 1: 진료실, 병동 간편승인 기능 사용안함</summary>
+</member>
+<member name="F:cspVarSetup.clsVarSetup.SuRec.UseVideoComputer">
+ <summary>비대면 화상컴퓨터 사용여부</summary>
+</member>
+<member name="F:cspVarSetup.clsVarSetup.SuRec.nameBand_use">
+ <summary>네임밴드 사용여부 => true: 네임밴드 사용</summary>
+</member>
+<member name="F:cspVarSetup.clsVarSetup.SuRec.nameBand_method">
+ <summary>네임밴드 양식</summary>
+</member>
+<member name="F:cspVarSetup.clsVarSetup.SuRec.nameBand_site">
+ <summary>네임밴드 업체구분</summary>
+</member>
+<member name="F:cspVarSetup.clsVarSetup.SuRec.nameBand_printer">
+ <summary>네임밴드 출력 프린터명</summary>
+</member>
+<member name="F:cspVarSetup.clsVarSetup.SuRec.nameBand_useWere">
+ <summary>네임밴드 외래 출력여부</summary>
+</member>
+<member name="F:cspVarSetup.clsVarSetup.SuRec.nameBand_left">
+ <summary>네임밴드 좌우 위치 조정</summary>
+</member>
+<member name="F:cspVarSetup.clsVarSetup.SuRec.tangjePrt">
+ <summary>탕제실 출력설정</summary>
+</member>
+<member name="P:cspVarSetup.clsVarSetup.SuRec.UseInfectReport">
+ <summary>
+ 감염병 신고 사용 여부 (ServerSetup 207)
+ </summary>
+</member>
+<member name="P:cspVarSetup.clsVarSetup.SuRec.TangjePrt_Use">
+ <summary>탕제실 출력설정 사용여부</summary>
+</member>
+<member name="P:cspVarSetup.clsVarSetup.SuRec.TangjePrt_Form">
+ <summary>탕제실 출력설정 양식</summary>
+</member>
+<member name="P:cspVarSetup.clsVarSetup.SuRec.TangjePrt_Printer">
+ <summary>탕제실 출력설정 프린터경로</summary>
+</member>
+<member name="F:cspVarSetup.clsVarSetup.SuRec.YakukPrt">
+ <summary>약국 출력 설정</summary>
+</member>
+<member name="F:cspVarSetup.clsVarSetup.SuRec.JusasilPrt">
+ <summary>주사실 출력 설정</summary>
+</member>
+<member name="F:cspVarSetup.clsVarSetup.SuRec.Setup165">
+ <summary>향정 출력 설정</summary>
+</member>
+<member name="F:cspVarSetup.clsVarSetup.SuRec.Setup233">
+ <summary>마약 출력 설정</summary>
+</member>
+<member name="F:cspVarSetup.clsVarSetup.BaseListRecord.bsCodeDisp">
+ <summary>병동표시설정 =>0: 기본값 / 1: 100동 / 2: 1병동 100호 / 3: 100/1000/01 / 4: 1병동 100호 1번</summary>
+</member>
+<member name="F:cspVarSetup.clsVarSetup.BaseListRecord.CertificateForm.diagonalLine">
+ <summary>여러장 출력시 빈 상병 및 소견 사선 표시 여부</summary>
+</member>
+</members>
+</doc>

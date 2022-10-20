@@ -1,0 +1,99 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+cspModComSpread
+</name>
+</assembly>
+<members>
+<member name="T:cspModComSpread.My.Resources.Resources">
+<summary>
+  지역화된 문자열 등을 찾기 위한 강력한 형식의 리소스 클래스입니다.
+</summary>
+</member>
+<member name="P:cspModComSpread.My.Resources.Resources.ResourceManager">
+<summary>
+  이 클래스에서 사용하는 캐시된 ResourceManager 인스턴스를 반환합니다.
+</summary>
+</member>
+<member name="P:cspModComSpread.My.Resources.Resources.Culture">
+<summary>
+  이 강력한 형식의 리소스 클래스를 사용하여 모든 리소스 조회에 대해 현재 스레드의 CurrentUICulture 속성을
+  재정의합니다.
+</summary>
+</member>
+<member name="P:cspModComSpread.My.Resources.Resources.chkBlack0">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspModComSpread.My.Resources.Resources.chkBlack0_13x13_">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspModComSpread.My.Resources.Resources.chkBlack1">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspModComSpread.My.Resources.Resources.chkBlack1_13x13_">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspModComSpread.My.Resources.Resources.chkBlack2">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspModComSpread.My.Resources.Resources.chkBlack2_13x13_">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="M:cspModComSpread.modComSpread.PrtSet(FarPoint.Win.Spread.FpSpread,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean)">
+ <summary>Spread인쇄 관련 기능</summary>
+ <param name="FpSpread">인쇄할 스프레드</param>
+ <param name="TitleMyung">최상단 명칭</param>
+ <param name="HeaderMyung">상단 명칭</param>
+ <param name="FooterMyung">하단 명칭</param>
+ <param name="PrtOption">프린터 옵션 설정 - 구분자 `,` 로 구분. [ "int여백(좌) , int여백(우) , int여백(상), int여백(하) , sng비율(1.0이 기본) , str가로세로(L=가로 P=세로)" ]</param>
+ <param name="PrtYmd">출력일자 지정. 형식 - "2017-01-01" 형식으로 입력.. [미지정시] 현재시간으로 적용됨</param>
+ <param name="ShowPrintDialog">설정창 띄울지 여부 (True일 경우 설정창 팝업)</param>
+ <param name="Preview">미리보기 여부 (True일 경우 미리보기 팝업)</param>
+ <param name="UseSmartPrint">스마트 프린트 사용 여부 (True일 경우 사용)</param>
+</member>
+<member name="M:cspModComSpread.modComSpread.SetActiveCell_RClick(FarPoint.Win.Spread.FpSpread,FarPoint.Win.Spread.CellClickEventArgs)">
+ <summary>우클릭 셀포커스 ( 블락선택시에는 포커스 되지 않게 )</summary>
+</member>
+<member name="M:cspModComSpread.modComSpread.SpreadDragDrop(FarPoint.Win.Spread.SheetView,FarPoint.Win.Spread.DragDropBlockEventArgs)">
+ <summary>스프레드 드래그 드랍 이벤트(스프레드설정에 AllowDragDrop = True 설정하고 DragDropBlock 이벤트에 넣어주면 됨.)</summary>
+</member>
+<member name="M:cspModComSpread.modComSpread.Get_FpSpreadHeaderTagIndex(FarPoint.Win.Spread.FpSpread,System.Int32,System.Int32)">
+ <summary>스프레드 헤더의 인덱스를 구해서 Dictionary변수에 담는다</summary>
+ <param name="Gubun">0 - Column헤더 , 1 - Row헤더</param>
+</member>
+<member name="M:cspModComSpread.SpreadGraphController.YSeriesAdd(System.String,System.Object,System.String)">
+ <summary>
+ 1. YSeriesAdd를 먼저 생성
+ 2. YPlotAreaAdd 생성
+ 3. ChartAdd 생성
+ </summary>
+</member>
+<member name="M:cspModComSpread.SpreadGraphController.YpaFontChange(System.Drawing.Font)">
+ <summary>
+ 1. YSeriesAdd를 먼저 생성
+ 2. YPlotAreaAdd 생성
+ 3. ChartAdd 생성
+ </summary>
+</member>
+<member name="M:cspModComSpread.SpreadGraphController.ChartAdd">
+ <summary>
+ 1. YSeriesAdd를 먼저 생성
+ 2. YPlotAreaAdd 생성
+ 3. ChartAdd 생성
+ </summary>
+</member>
+</members>
+</doc>

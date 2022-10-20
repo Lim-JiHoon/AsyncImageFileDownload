@@ -1,0 +1,69 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+cspCalculateStructure
+</name>
+</assembly>
+<members>
+<member name="T:cspCalculateStructure.My.Resources.Resources">
+<summary>
+  지역화된 문자열 등을 찾기 위한 강력한 형식의 리소스 클래스입니다.
+</summary>
+</member>
+<member name="P:cspCalculateStructure.My.Resources.Resources.ResourceManager">
+<summary>
+  이 클래스에서 사용하는 캐시된 ResourceManager 인스턴스를 반환합니다.
+</summary>
+</member>
+<member name="P:cspCalculateStructure.My.Resources.Resources.Culture">
+<summary>
+  이 강력한 형식의 리소스 클래스를 사용하여 모든 리소스 조회에 대해 현재 스레드의 CurrentUICulture 속성을
+  재정의합니다.
+</summary>
+</member>
+<member name="F:cspCalculateStructure.clsCalculateStructure.wjtRecord.bhEtc1">
+ <summary>산재후유증상</summary>
+</member>
+<member name="F:cspCalculateStructure.clsCalculateStructure.jrRecord.herbs">
+ <summary>
+ 1 : 한방첩약처방여부
+ </summary>
+</member>
+<member name="F:cspCalculateStructure.clsCalculateStructure.jyRecord.pYsCode">
+ <summary>이전 약수가코드</summary>
+</member>
+<member name="F:cspCalculateStructure.clsCalculateStructure.jyRecord.spCode">
+ <summary>참고분류코드</summary>
+</member>
+<member name="F:cspCalculateStructure.clsCalculateStructure.jyRecord.spMyung">
+ <summary>참고분류명칭</summary>
+</member>
+<member name="F:cspCalculateStructure.clsCalculateStructure.jyRecord.Kind">
+ <summary>
+ 종류: 1-첩약시범사업
+ </summary>
+</member>
+<member name="F:cspCalculateStructure.clsCalculateStructure.jyRecord.obj">
+ <summary>
+ 필요시 사용하는 참조변수
+ 현재는 첩약 데이터 모델 집어넣기 위한 Object로 사용함
+ </summary>
+</member>
+<member name="F:cspCalculateStructure.clsCalculateStructure.jyRecord.pojang">
+<summary>1: 따로포장</summary>
+</member>
+<member name="F:cspCalculateStructure.clsCalculateStructure.jyRecord.gubun">
+ <summary>진료내역 구분</summary>
+</member>
+<member name="F:cspCalculateStructure.clsCalculateStructure.wysRecord.maxSoato">
+ <summary>최대 소아 일투</summary>
+</member>
+<member name="F:cspCalculateStructure.clsCalculateStructure.wysRecord.spCode">
+ <summary>참고분류코드</summary>
+</member>
+<member name="F:cspCalculateStructure.clsCalculateStructure.wysRecord.spMyung">
+ <summary>참고분류내용</summary>
+</member>
+</members>
+</doc>

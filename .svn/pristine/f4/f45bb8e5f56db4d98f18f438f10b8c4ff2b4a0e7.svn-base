@@ -1,0 +1,140 @@
+﻿using cspModCommon;
+using cspOptometry.Controllers;
+using cspOptometry.Models;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Threading.Tasks;
+using static cspModCommon.modCommon;
+
+namespace cspOptometry.Views
+{
+  public partial class FrmMyopia : DevExpress.XtraEditors.XtraForm, IMyopia
+  {
+    #region fields
+    private MyopiaController _cont;
+    #endregion
+
+    #region methods
+
+    #endregion
+
+    #region events
+    private async void FrmMyopia_Shown(object sender, EventArgs e)
+    {
+      await _cont.Search();
+    }
+
+    private async void BtnSearch_Click(object sender, EventArgs e)
+    {
+      await _cont.Search(sDte.DateTime, eDte.DateTime);
+    }
+
+    private void btnSetting_Click(object sender, EventArgs e)
+    {
+      clsOptometry.ShowMyopiaSetting();
+    }
+
+    private void btnSave_Click(object sender, EventArgs e)
+    {
+      var leftIcb = imgLeft.GetSelectedImageCheckBox();
+      var rightIcb = imgRight.GetSelectedImageCheckBox();
+      if (leftIcb == null)
+      {
+        Msg("좌안 이미지를 선택하세요.!!"); return;
+      }
+      if (rightIcb == null)
+      {
+        Msg("우안 이미지를 선택하세요.!!"); return;
+      }
+      _cont.LoadInputs(leftIcb.Footer1Text, rightIcb.Footer1Text);
+      _cont.SaveFiles(leftIcb.Image, rightIcb.Image, fpSpread1);
+    }
+
+    private void btnExit_Click(object sender, EventArgs e)
+    {
+      this.Close();
+    }
+    #endregion
+
+    #region constructor
+    public FrmMyopia()
+    {
+      InitializeComponent();
+
+      sDte.EditValue = DateTime.Now;
+      eDte.EditValue = DateTime.Now;
+
+      this.Shown += FrmMyopia_Shown;
+      this.btnExit.Click += btnExit_Click;
+      this.btnSetting.Click += btnSetting_Click;
+      this.btnSave.Click += btnSave_Click;
+      this.btnSearch.Click += BtnSearch_Click; ;
+    }
+    #endregion
+
+    #region interfaces
+    public void SetController(MyopiaController controller)
+    {
+      _cont = controller;
+    }
+
+    public void SetInfo(string chart, string suname)
+    {
+      txtChart.Text = chart;
+      txtSuname.Text = suname;
+    }
+
+    public async void LoadImages(List<Cap> caps)
+    {
+      int i = 0;
+      int cnt = caps.Count;
+      using (var bar = new csBar("이미지를 불러오는 중입니다.."))
+      {
+        bar.Show();
+        foreach (var cap in caps)
+        {
+          await Task.Delay(1);
+          imgLeft.Add(cap.GetImage(), true, cap.Ymd, true, cap.Etc, false);
+          imgRight.Add(cap.GetImage(), true, cap.Ymd, true, cap.Etc, false);
+
+          bar.Progress(++i, cnt, $"{cap.Ymd}({cap.Etc})", false);
+        }
+      }
+    }
+
+    public void Clear()
+    {
+      imgLeft.ClearAll();
+      imgRight.ClearAll();
+    }
+
+    public void LoadInputs(WjModel wj, DataTable dt)
+    {
+      var sv = fpSpread1.Sheets[0];
+      var rows = dt.Rows;
+      var columns = dt.Columns;
+
+      sv.RowCount = 0;
+      sv.RowCount = rows.Count + 2;
+      sv.ColumnCount = columns.Count;
+
+      sv.Cells[0, 0].Value = wj.chart;
+      sv.Cells[0, 1].Value = wj.suname;
+      sv.Cells[0, 2].Value = wj.sex;
+      sv.Cells[0, 3].Value = AgeCalculate2(DateTime.Now.ToString("yyyyMMdd"), wj.birthday);
+
+      for (int col = 0; col < columns.Count; col++)
+      {
+        sv.Cells[1, col].Value = columns[col].ColumnName;
+
+        for (int rIdx = 0; rIdx < rows.Count; rIdx++)
+        {
+          int row = rIdx + 2;
+          sv.Cells[row, col].Value = rows[rIdx][col];
+        }
+      }
+    }
+    #endregion
+  }
+}

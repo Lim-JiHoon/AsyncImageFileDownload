@@ -1,0 +1,581 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+cspModCommon
+</name>
+</assembly>
+<members>
+<member name="T:cspModCommon.My.Resources.Resources">
+<summary>
+  지역화된 문자열 등을 찾기 위한 강력한 형식의 리소스 클래스입니다.
+</summary>
+</member>
+<member name="P:cspModCommon.My.Resources.Resources.ResourceManager">
+<summary>
+  이 클래스에서 사용하는 캐시된 ResourceManager 인스턴스를 반환합니다.
+</summary>
+</member>
+<member name="P:cspModCommon.My.Resources.Resources.Culture">
+<summary>
+  이 강력한 형식의 리소스 클래스를 사용하여 모든 리소스 조회에 대해 현재 스레드의 CurrentUICulture 속성을
+  재정의합니다.
+</summary>
+</member>
+<member name="P:cspModCommon.My.Resources.Resources.Blue__unchecked">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspModCommon.My.Resources.Resources.Blue_checked">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspModCommon.My.Resources.Resources.Gray_checked">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspModCommon.My.Resources.Resources.Green_checked">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspModCommon.My.Resources.Resources.Green_Unchecked">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspModCommon.My.Resources.Resources.Orange_checked">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspModCommon.My.Resources.Resources.Orange_Unchecked">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspModCommon.My.Resources.Resources.Red_checked">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspModCommon.My.Resources.Resources.Red_Unchecked">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspModCommon.My.Resources.Resources.Sky_checked">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspModCommon.My.Resources.Resources.Sky_Unchecked">
+<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member>
+<member name="P:cspModCommon.ClickColor.HyangJung">
+ <summary>[BackColor]향정 색상을 반환합니다.</summary>
+</member>
+<member name="P:cspModCommon.ClickColor.MaYak">
+ <summary>[BackColor]마약 색상을 반환합니다.</summary>
+</member>
+<member name="P:cspModCommon.ClickColor.IbwonPatient">
+ <summary>[BackColor]입원환자 색상을 반환합니다.</summary>
+</member>
+<member name="P:cspModCommon.ClickColor.TewonPatient">
+ <summary>[BackColor]퇴원환자 색상을 반환합니다.</summary>
+</member>
+<member name="P:cspModCommon.ClickColor.YuhyungChange">
+ <summary>[BackColor]입퇴원 - 유형 변경인 경우 색상.</summary>
+</member>
+<member name="P:cspModCommon.ClickColor.TewonYak">
+ <summary>[BackColor]퇴원약 색상을 반환합니다.</summary>
+</member>
+<member name="P:cspModCommon.ClickColor.SusulOrder">
+ <summary>[BackColor]수술실처방 색상을 반환합니다.</summary>
+</member>
+<member name="P:cspModCommon.ClickColor.ToosukOrder">
+ <summary>[BackColor]투석실처방 색상을 반환합니다.</summary>
+</member>
+<member name="P:cspModCommon.ClickColor.PojangColor">
+ <summary>[BackColor]따로포장 색상을 반환합니다.</summary>
+</member>
+<member name="P:cspModCommon.ClickColor.BesikComplete">
+ <summary>[BackColor]배식완료 색상</summary>
+</member>
+<member name="P:cspModCommon.ClickColor.ActingColor(System.Int32)">
+ <summary>[BackColor]액팅 처리여부 색상</summary>
+</member>
+<member name="P:cspModCommon.ClickColor.BackColor_Mc">
+ <summary>[BackColor]묶음 색상</summary>
+</member>
+<member name="M:cspModCommon.clsBaseList.Get_DataTable(System.String,System.Object,System.String[])">
+ <summary></summary>
+ <param name="Gubun"></param>
+ <param name="Code">Nothing 입력시 코드는 검색하지 않습니다.</param>
+</member>
+<member name="M:cspModCommon.clsJiwon.YakGuk.DCOutageSetting(System.String,System.Int32,System.String,System.Double,System.Int32,System.Int32,System.Double,System.Double,System.Double)">
+ <summary>약국 조제 또는 감량 데이터 생성</summary>
+ <param name="Gubun"></param>
+ <remarks></remarks>
+</member>
+<member name="M:cspModCommon.clsKicho.mCodeSeek(System.Boolean,System.String,System.String,System.String@)">
+ <summary>Mix목코드</summary>
+</member>
+<member name="M:cspModCommon.CsRef.Forms.입퇴원조회(System.String,System.Boolean)">
+ <summary></summary>
+ <param name="code"></param>
+ <returns>key[차트번호, 입원일자, 퇴원일자]</returns>
+</member>
+<member name="M:cspModCommon.CsDUR.HIRADURPaitentInfo(cspVarSetup.clsVarSetup.userRecord,System.String,System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ DUR에서 메르스 환자정보 표시
+ </summary>
+</member>
+<member name="M:cspModCommon.clsSpread.GcCombo.GetCellType_Food(System.String,System.String,System.Boolean,System.Boolean)">
+ <summary>배식코드 콤보박스 셀타입 반환</summary>
+ <param name="ymd">일자</param>
+ <param name="yuhyung">유형</param>
+ <param name="isGuardian">보호자 여부</param>
+ <param name="hanbang">한방 여부</param>
+</member>
+<member name="M:cspModCommon.clsWj.GetChartInfoModel(System.String,System.String)">
+ <summary>환자의 유형, 진료실, 입원 여부를 반환합니다.</summary>
+</member>
+<member name="M:cspModCommon.clsWj.GetData(System.String,System.String[])">
+ <summary>XXXXXX 이 함수 대신 WjData.GetModel 함수를 사용하세요. XXXXXX</summary>
+</member>
+<member name="M:cspModCommon.clsWj.GetData_Log(System.String,System.String[])">
+ <summary>XXXXXX 이 함수 대신 WjData.GetModel 함수를 사용하세요. XXXXXX</summary>
+</member>
+<member name="M:cspModCommon.clsWj.CheckChamgoChanged(System.String,System.Decimal,System.String)">
+ <summary>1-특이사항 저장, 2-특이사항 저장안함, 그 외 저장취소</summary>
+</member>
+<member name="M:cspModCommon.cls열람.EMRViewerLoad(cspVarSetup.clsVarSetup.userRecord,System.String,System.String,System.Boolean)">
+ <summary>EMR뷰어 차트 링크</summary>
+</member>
+<member name="M:cspModCommon.cls열람.EMRViewerLoad(cspVarSetup.clsVarSetup.userRecord,System.String,System.String,System.Boolean,System.String,System.String)">
+ <summary>EMR뷰어 차트 링크</summary>
+</member>
+<member name="M:cspModCommon.MeMessageManager.SendMessage">
+ <summary>
+ AddComputerNames method에서 추가된 컴퓨터리스트에 메세지를 전송합니다.
+ </summary>
+</member>
+<member name="M:cspModCommon.TscPrint.AddText(System.Int32,System.Int32,System.String,System.Int32,System.Int32)">
+ <summary>
+ </summary>
+ <param name="x"></param>
+ <param name="y"></param>
+ <param name="text"></param>
+ <param name="fontHeight"></param>
+ <param name="fontStyle">0: normal
+ 1: italic
+ 2: bold
+ 3: bold | italic</param>
+</member>
+<member name="M:cspModCommon.modCommon.MyReader(MySql.Data.MySqlClient.MySqlConnection,System.String,System.String)">
+ <summary>
+ MysqlDataRead Methods(CommandBehavior => SequentialAccess)
+ </summary>
+</member>
+<member name="M:cspModCommon.modCommon.GetDataTable(System.String,System.String)">
+ <summary>
+ [DB Read] DataTable  별도 커넥션에 연결. 사용 후 커넥션은 끊어짐
+ </summary>
+</member>
+<member name="M:cspModCommon.modCommon.Execute(System.String,System.String)">
+ <summary>
+ [DB Execute] 별도 커넥션에 연결. 사용 후 커넥션은 끊어짐
+ </summary>
+</member>
+<member name="M:cspModCommon.modCommon.Execute(System.String,System.String,System.Byte[][])">
+ <summary>
+ [DB Execute]별도 커넥션에 연결. 사용 후 커넥션은 끊어짐
+ </summary>
+</member>
+<member name="M:cspModCommon.modCommon.byteToBlobField(MySql.Data.MySqlClient.MySqlConnection,System.String,System.String,System.Byte[][])">
+ <summary>Byte형식을 Blob 필드로 저장하기 위한 프로시저</summary>
+ <param name="Sql">쿼리. 파라미터 값  ?  가 존재해야함.</param>
+ <param name="Buffer">쿼리에 파라미터  ?1, ?2, ?3 순  의 갯수만큼 Byte() 를 추가</param>
+</member>
+<member name="M:cspModCommon.modCommon.byteToBlobField(System.String,System.Byte[])">
+ <summary>Byte형식을 Blob 필드로 저장하기 위한 프로시저</summary>
+ <param name="Sql">쿼리. 파라미터 값  ?  가 존재해야함.</param>
+ <param name="Buffer">쿼리에 파라미터  ?  의 갯수만큼 Byte() 를 추가</param>
+</member>
+<member name="M:cspModCommon.modCommon.Odbc_Reader(System.Data.Odbc.OdbcConnection,System.String,System.String,System.Boolean)">
+ <summary>
+ OdbcDataRead Methods(CommandBehavior => SequentialAccess)
+ </summary>
+</member>
+<member name="M:cspModCommon.modCommon.DbConLoad2(System.Boolean)">
+ <summary>연결 실패해도 메세지 발생X</summary>
+</member>
+<member name="M:cspModCommon.modCommon.AgeCalculate2(System.String,System.String)">
+ <summary>나이를 숫자형태로 반환</summary>
+</member>
+<member name="M:cspModCommon.modCommon.jinchalMyungSeek(System.String,System.String,System.String@)">
+ <summary>진료실 과목,명칭 조회</summary>
+ <param name="Jinchal">진료실코드(01,02..)</param>
+ <param name="Ymd">조회기준일자</param>
+ <param name="Kwamok">Optional 과목코드</param>	
+</member>
+<member name="M:cspModCommon.modCommon.jinchalMyungSeek2(System.String,System.String,System.String@,System.String@,System.String@,System.String@)">
+ <summary>진료실 과목,명칭 조회, 리턴값 진료실명</summary>
+ <param name="Jinchal">진료실코드(01,02..)</param>
+ <param name="Ymd">조회기준일자</param>
+ <param name="DoctorName">Optional 의사명</param>	
+ <param name="doctorJongbl">Optional 의사종별</param>	
+ <param name="doctorLicense">Optional 의사면허번호</param>	
+ <param name="doctorKwamok">Optional 과목</param>	
+</member>
+<member name="M:cspModCommon.modCommon.JinchalCheck(System.String,System.String)">
+ <summary>진료실 사용가능여부 체크</summary>
+ <param name="Jinchal">진료실코드(01,02..)</param>
+ <param name="Ymd">조회기준일자</param>
+</member>
+<member name="M:cspModCommon.modCommon.JinchalCheck2(System.String,System.String,System.String@,System.String@,System.String,System.String)">
+ <summary>진료실 사용가능여부 체크2</summary>
+ <param name="Jinchal">진료실코드(01,02..)</param>
+ <param name="Ymd">조회기준일자</param>
+ ''' <param name="Kind">의사종류</param>
+ <param name="Meonheo">면허번호</param>
+ <param name="docName">의사명</param>
+ <param name="Kwamok1">과목</param>
+</member>
+<member name="M:cspModCommon.modCommon.DoctorSaupSeek2(System.String)">
+<summary>진료의사의 사업자 Seek, 조회 안될시 메세지</summary> 
+ <param name="Jinchal" > 진료실 코드</param>
+</member>
+<member name="M:cspModCommon.modCommon.DoctorSaupSeek3(System.String,System.String)">
+ <summary>진료의사의 사업자 Seek</summary>
+ <param name="Jinchal">진료실코드</param>
+ <param name="Ymd">일자</param>
+</member>
+<member name="M:cspModCommon.modCommon.custTimeSave">
+ <summary> cspMouseHook프로젝트에서는 별도의 CustTimeSave 함수를 사용함	</summary>
+ <remarks> 그외 프로젝트에서는 꼭 modCommon에 있는 CustTimeSave 함수를 사용하기 바람</remarks>
+</member>
+<member name="M:cspModCommon.modCommon.BsCodeConv(System.String,System.Boolean)">
+ <summary>병실 한글로 변경</summary>
+ <param name="Code">병실정보</param>
+ <param name="Dong">동 표시 여부</param>
+ <returns>00병동 000호</returns>	
+</member>
+<member name="M:cspModCommon.modCommon.ColorFromArgb_Str(System.String)">
+ <summary>String형식으로 저장된 RGB를 색상으로 변환하기 위한 함수</summary>
+ <param name="RGBstr">String형식의 RGB</param>
+</member>
+<member name="M:cspModCommon.modCommon.ComboSaupSet1(System.Object,System.Object,System.Boolean)">
+ <summary> 사업 콤보박스 item add</summary>
+ <param name="ComObj">세팅할 콤보박스</param>
+</member>
+<member name="M:cspModCommon.modCommon.ComboSaupSet2(System.Object,System.Boolean)">
+ <summary> 사업 콤보박스 item add</summary>
+ <param name="ComObj">세팅할 콤보박스</param>
+</member>
+<member name="M:cspModCommon.modCommon.ComboSaupSet3(System.Object,System.Boolean,System.Boolean)">
+ <summary> 사업 콤보박스 item add</summary>
+ <param name="ComObj">세팅할 콤보박스</param>
+</member>
+<member name="M:cspModCommon.modCommon.ComboSaupSet(System.Object)">
+ <summary> 사업 콤보박스 item add</summary>
+ <param name="ComObj">세팅할 콤보박스</param>
+</member>
+<member name="M:cspModCommon.modCommon.jinchalComboSet1(System.String,System.Object,System.Boolean,System.Boolean)">
+ <summary> 진료실 콤보박스 DropDownColumns</summary>
+ <param name="ymd">일자</param>
+ <param name="cmbObj">세팅할 콤보박스</param>
+ <param name="AllInsert" > "전체"아이템 추가 여부</param>
+ <param name="Hanbang" >한방여부</param>
+</member>
+<member name="M:cspModCommon.modCommon.jinchalComboSet(System.String,System.Object,System.Boolean,System.Boolean)">
+ <summary> 진료실 콤보박스 item add</summary>
+ <param name="ymd">일자</param>
+ <param name="cmbObj">세팅할 콤보박스</param>
+ <param name="AllInsert" > "전체"아이템 추가 여부</param>
+ <param name="Hanbang" >한방여부</param>
+</member>
+<member name="M:cspModCommon.modCommon.ComboBsSet(System.Object)">
+ <summary> 병동 콤보박스 item add</summary>
+ <param name="cmbObj">세팅할 콤보박스</param>
+</member>
+<member name="M:cspModCommon.modCommon.CodeMyungSeek(System.String,System.String,System.Boolean,System.String,System.Boolean)">
+ <summary> 특정 코드 명칭 리턴</summary>
+ <param name="Gubun">코드구분</param>
+ <param name="Code">코드값</param>
+ <param name="CodeNum">코드 숫자값 포함 리턴 여부</param>
+ <param name="CodeFormat">포맷을 지정할경우 타입</param>
+ 
+</member>
+<member name="M:cspModCommon.modCommon.SaupkihoNameSeek(MySql.Data.MySqlClient.MySqlConnection,System.String,System.String)">
+ <summary>사업기호명칭 찾기 </summary>
+ <param name="Con"></param>
+ <param name="Saupkiho">찾을 사업기호</param>
+ <param name="Hal">할인율</param>
+ <returns>사업장명칭</returns>	
+</member>
+<member name="M:cspModCommon.modCommon.SaupkihoNameSeek2(MySql.Data.MySqlClient.MySqlConnection,System.String,System.String@)">
+ <summary>사업기호명칭 찾기 </summary>
+ <param name="Con"></param>
+ <param name="Saupkiho">찾을 사업기호</param>
+ <param name="Hal">할인율</param>
+ <returns>사업장명칭 Hal - Byref누락 수정본 </returns>	
+</member>
+<member name="M:cspModCommon.modCommon.PrinterCheck(System.String@)">
+ <summary> 프린터 찾기</summary>
+ <param name="PrtName">찾을 프린터 명</param>
+</member>
+<member name="M:cspModCommon.modCommon.GetPrintName(System.String,System.Boolean)">
+ <summary>프린트이름 또는 포트명을 반환하는 함수</summary>
+ <param name="pName">프린터명 또는 포트명을 입력</param>
+ <param name="ReturnPort">True: 포트명을 반환, False: 프린터명을 반환</param>
+</member>
+<member name="M:cspModCommon.modCommon.TextLengthCheck(System.Windows.Forms.TextBox,System.String[]@)">
+ <summary> TextBox 텍스트 배열변수로 리턴</summary>
+ <param name="Obj">textbox</param>
+ <param name="rArr">리턴 받을 배열 변수</param>
+</member>
+<member name="M:cspModCommon.modCommon.TextReturn(System.Object)">
+ <summary> TextBox 텍스트 배열변수로 리턴</summary>
+ <param name="Obj">textbox</param>	
+</member>
+<member name="M:cspModCommon.modCommon.Text_Return(System.Object)">
+ <summary> TextBox 텍스트 배열변수로 리턴(텍스트 변수에 Replace된 값 넘기도록)</summary>
+ <param name="Obj">textbox</param>	
+</member>
+<member name="M:cspModCommon.modCommon.RichTextReturn(System.Object)">
+ <summary> RichTextBox 텍스트 배열변수로 리턴</summary>
+ <param name="Obj">Richtextbox</param>	
+</member>
+<member name="M:cspModCommon.modCommon.Mtrim(System.String)">
+ <summary>날짜 "-" 삭제 </summary>
+</member>
+<member name="M:cspModCommon.modCommon.Dtrim(System.String)">
+ <summary>날짜 포맷 </summary>
+</member>
+<member name="M:cspModCommon.modCommon.Ttrim(System.String)">
+ <summary> 시간포맷 </summary>
+</member>
+<member name="M:cspModCommon.modCommon.DllReflection(System.String,System.String)">
+ <summary>간접참조 object전달 함수</summary>
+ <param name="Dll_NM">Dll명   예) cspSeek.dll</param>
+ <param name="Cls_NM">Class명 예) clsSeek </param>
+</member>
+<member name="M:cspModCommon.modCommon.SprSearchShow(FarPoint.Win.Spread.FpSpread,System.Int32,System.Int32,System.String)">
+ <summary>스프레드 우클릭 검색기능</summary>
+ <param name="Spread">해당 스프레드 객체</param>
+ <param name="SheetIndex">검색할 시트index</param>
+ <param name="Column">검색할 Column</param>
+ <param name="SearchTitle">검색시 표기할 타이틀</param>
+</member>
+<member name="M:cspModCommon.modCommon.SprSearchShow(FarPoint.Win.Spread.FpSpread,System.Int32,System.Int32,System.Int32)">
+ <summary>스프레드 우클릭 검색기능(타이틀=칼럼헤더Row 0번째 값으로..)</summary>
+ <param name="Spread">해당 스프레드 객체</param>
+ <param name="SheetIndex">검색할 시트index</param>
+ <param name="Column">검색할 Column</param>
+ <param name="Sort">0-정렬안함, 1-정순정렬, 2-역순정렬</param>
+</member>
+<member name="M:cspModCommon.modCommon.SprSearchShow(FarPoint.Win.Spread.FpSpread,System.Int32,System.Int32,System.String,System.Int32)">
+ <summary>스프레드 우클릭 검색기능</summary>
+ <param name="Spread">해당 스프레드 객체</param>
+ <param name="SheetIndex">검색할 시트index</param>
+ <param name="Column">검색할 Column</param>
+ <param name="SearchTitle">검색시 표기할 타이틀</param>
+ <param name="Sort">0-정렬안함, 1-정순정렬, 2-역순정렬</param>
+</member>
+<member name="M:cspModCommon.modCommon.SetGrid(DevComponents.DotNetBar.SuperGrid.GridPanel,System.Int32,System.Int32,System.String,DevComponents.DotNetBar.SuperGrid.Style.Alignment,System.String,System.String,System.Boolean)">
+ <summary>SpuerGrid 스타일</summary>
+ <param name="ColType">"" - Default,0 - Label, 1 - ComboBoxEx, 2 - 체크박스(2 State), 3 - 체크박스(3 State), 4 - 라디오박스, 5 - 프레스바, 6 - RatingStar, 7 - 이미지, 8 - 날짜</param>
+ <param name="CheckBoxColor">"B" - Blue, "G" - Green, "O" - Orange, "R" - Red, "S"- SkyBlue</param>
+ <param name="RO"> 읽기전용 </param>
+ 
+</member>
+<member name="M:cspModCommon.modCommon.BarShow(System.Windows.Forms.Control,System.String)">
+ <summary>사각형 형태의 원형 프로그래스 바</summary>
+ <param name="ParentCtrl">부모컨트롤 지정</param>
+ <param name="WaitingMessage">메세지 표시</param>
+</member>
+<member name="M:cspModCommon.modCommon.BarValue(System.Int32,System.Int32,System.String)">
+ <summary>BarShow이후에 화면에 보여지는 Value</summary>
+ <param name="Cnt">진행 상황을 나타내는 index </param>
+ <param name="AllCnt">최대 index</param>
+ <param name="TitleText">타이틀 명</param>
+ <remarks></remarks>
+</member>
+<member name="M:cspModCommon.modCommon.BarDispose">
+ <summary>BarShow이후 생성된 바를 없애기 위함. BarShow가 이루어졌을 경우 반드시 Dispose해줘야함.</summary>
+</member>
+<member name="M:cspModCommon.modCommon.SetTextBoxesInFormToSelectAll(System.Windows.Forms.Control)">
+ <summary>
+ 폼 안에 있는 모든 텍스트 박스 형식의 마우스 이벤트 추가(선택 시 Select All)
+ </summary>
+ <param name="control"></param>
+</member>
+<member name="M:cspModCommon.modCommon.TxtSelectALL(System.Object[])">
+ <summary>
+ TextBox를 마우스로 클릭하거나 Key이벤트로 포커스가 갈때 Text전체선택하게 하기위해 이벤트 추가해주는 프로시저
+ 폼 로드 할때 한번 호출 시켜주면 된다.
+ </summary>
+ <param name="TxtObj">적용시킬 Textbox / 예) TxtSelectALL(txtChart) 또는 TxtSelectALL(txtChart, txtSuname, txtYuhyung) 또는 txtSelectALL( New Textbox(){txtChart, txtSuname} )</param>
+ 
+</member>
+<member name="M:cspModCommon.modCommon.TxtNumeric_Keypress(System.Object,System.Windows.Forms.KeyPressEventArgs,System.Int32,System.Double,System.Double)">
+ <summary>텍스트박스 입력시 숫자형태입력 형식으로 바꿔주는 프로시저(keyPress이벤트에 추가)</summary>
+ <param name="sender">해당 텍스트박스</param>
+ <param name="e">해당 컨트롤 이벤트</param>
+ <param name="Sosu">소수 자리수 ex) 0- 소수자리수 사용안함, 1- 소수첫째자리까지만 </param>
+ <param name="MinValue">최소값</param>
+ <param name="MaxValue">최대값</param>
+ <remarks></remarks>
+</member>
+<member name="M:cspModCommon.modCommon.CompressFile(System.String,System.String)">
+ <summary>파일을 압축</summary>
+ <param name="sourceFile">압축할 파일</param>
+ <param name="destinationFile">압축파일명칭</param>
+</member>
+<member name="M:cspModCommon.modCommon.DecompressFile(System.String,System.String)">
+ <summary>CompressFile로 압축한 파일을 해제</summary>
+ <param name="sourceFile">압축해제할 압축파일</param>
+ <param name="destinationFile">해제된 파일명</param>
+</member>
+<member name="M:cspModCommon.modCommon.CompressByte(System.String)">
+ <summary>압축한 파일을 바로 바이트배열로</summary>
+ <param name="sourceFile">압축할 파일명</param>
+</member>
+<member name="M:cspModCommon.modCommon.CompressByte(System.Byte[])">
+ <summary>압축한 파일을 바로 바이트배열로</summary>
+ <param name="Buf">압축할 바이트배열</param>
+</member>
+<member name="M:cspModCommon.modCommon.DecompressFile_FromByte(System.Byte[],System.String)">
+ <summary>압축된 Byte배열을 즉시 파일로</summary>
+ <param name="Buf">압축된 Byte배열</param>
+ <param name="destinationFile">압축해제파일명</param>
+</member>
+<member name="M:cspModCommon.modCommon.DecompressByte_FromByte(System.Byte[])">
+ <summary>압축된 Byte배열을 압축해제된 Byte배열로</summary>
+ <param name="Buf">압축된 Byte배열</param>
+</member>
+<member name="P:cspModCommon.modCommon.Win32_PrinterObj">
+ <summary>프린터 오브젝트 생성, Get_PrinterName 호출시 필요</summary>
+</member>
+<member name="M:cspModCommon.modCommon.Get_PrinterName(System.String,System.Object,System.Boolean)">
+ <summary>특정 포트의 프린터명을 반환 또는 프린터명을 포트로 반환한다.</summary>
+ <param name="pName">포트 or 프린터명</param>
+ <param name="Win32_Printer">프린터 변수사용 Win32_PrinterObj로 만들어진 오브젝트</param>
+ <param name="ReturnPort">False = 프린터이름 반환, True = 포트명 반환</param>
+</member>
+<member name="M:cspModCommon.modCommon.jrInfoAdd(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>환자 정보 존재여부 Update (항코드, 경과기록, PRN, Insulin, SelfMed, 타과오더</summary>
+</member>
+<member name="M:cspModCommon.modCommon.GetDic_PState(System.String,System.String,System.String)">
+ <summary>
+ 환자상태 불러오기
+ </summary>
+</member>
+<member name="M:cspModCommon.modCommon.ControlsSize_Find(System.Windows.Forms.Control,System.String,System.String,System.Windows.Forms.Control@)">
+ <summary>컨테이너 이름과 컨트롤의 이름으로 컨트롤을 폼 안에서 찾는다.</summary>
+</member>
+<member name="M:cspModCommon.modCommon.ControlsSize_SetList(System.Windows.Forms.Control,System.Collections.Generic.List{System.Object}@)">
+ <summary>폼 안의 사이즈 조정에 필요한 컨트롤들을 제네릭 배열에 쌓는다.</summary>
+</member>
+<member name="M:cspModCommon.HerbsRoomRepository.GetModels(System.String)">
+ <param name="gubun">01: 자체   02: 공동   03:한약국</param>
+ <returns></returns>
+</member>
+<member name="M:cspModCommon.CsImageController.GetStretchAndScaleSize(System.Drawing.Size,System.Drawing.Size)">
+ <summary>
+ 비율대로 사이즈를 변경하여 반환한다.
+ </summary>
+ <param name="changeSize">변경될 사이즈</param>
+ <param name="standardSize">기준 사이즈</param>
+</member>
+<member name="F:cspModCommon.CsMemory.Key.optometry_key">
+ <summary>검안실 - 스크린샷 환자정보 메모리</summary>
+</member>
+<member name="M:cspModCommon.CsString.GetStringSplitIndex(System.String,System.Int32,System.String)">
+ <summary>split 구분자로 나뉜 배열값의 인덱스에 해당하는 항목을 가져옵니다.</summary>
+ <param name="value">입력값</param>
+ <param name="index">인덱스</param>
+ <param name="separator">구분자</param>
+</member>
+<member name="M:cspModCommon.CsString.BugFixRtfCopyError">
+ <summary>
+ richTextBox의 Text를 복사 후 Text속성이 초기화되는 경우 다음 붙여넣기가 안되는 현상 수정
+ => 텍스트 초기화 전에 호출
+ </summary>
+</member>
+<member name="M:cspModCommon.DoctorData.Find.SetList(System.String)">
+ <summary>리스트 초기화</summary>
+ <param name="fromQuery">doctor_code, doctor_ymd, doctor_name, doctor_myung 필드를 제외한 나머지를 입력하세요.</param>
+</member>
+<member name="M:cspModCommon.EMRFormData.GetOperationData(System.String,System.String,System.Int32)">
+ <summary>수술실 값 Return함수</summary>
+ <param name="Index">0-수술명, 1-진단명, 2-진료실명, 3-의사이름</param>
+ <returns></returns>
+</member>
+<member name="F:cspModCommon.InputModel.InputSetting.gumsa">
+ <summary>
+ 0: 기초, 1:정밀 검사
+ </summary>
+</member>
+<member name="M:cspModCommon.WjData.SaveLog(cspModCommon.SaveLogKind,System.String,System.String,System.String)">
+ <summary>
+ 인적사항 로그 저장 메소드입니다.
+ </summary>
+ <param name="programName">예) 진료실 or 접수실</param>
+</member>
+<member name="F:cspModCommon.CallVariableModel.pulimYn">
+ <summary>풀림여부</summary>
+</member>
+<member name="F:cspModCommon.PictureBoxDrawController.Bit.baseImageZoomScale">
+ <summary>기존 이미지의 scale 크기</summary>
+</member>
+<member name="F:cspModCommon.PictureBoxDrawController.Bit.changedImageZoomScale">
+ <summary>변경된 이미지의 scale 크기</summary>
+</member>
+<member name="M:cspModCommon.DateUtils.RangeOfWeek(System.DateTime)">
+ <summary>
+ 일요일 ~ 월요일까지 범위를 구한다.
+ </summary>
+ <param name="dte">기준 날짜</param>
+</member>
+<member name="M:cspModCommon.DateUtils.LoopMonthRange(System.DateTime,System.DateTime)">
+ <summary>
+ 월 단위로 시작일부터 종료일까지 반복
+ </summary>
+ <param name="startDate">시작일</param>
+ <param name="endDate">종료일</param>
+</member>
+<member name="M:cspModCommon.DateUtils.LoopMonthRangeDesc(System.DateTime,System.DateTime)">
+ <summary>
+ 월 단위로 종료일부터 시작일까지 반복
+ </summary>
+ <param name="endDate">종료일</param>
+ <param name="startDate">시작일</param>
+</member>
+<member name="M:cspModCommon.clsSelectALLEvent.SelectAll_MouseUp(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>마우스 클릭시 전체선택 포커스 최초 1회. 또한, 드래그하여 선택하였을땐 그만큼만 선택되도록</summary>
+</member>
+<member name="M:cspModCommon.clsSelectALLEvent.SelectAll_Enter(System.Object,System.EventArgs)">
+ <summary>Key이벤트로인한 포커스 이벤트</summary>
+</member>
+<member name="M:cspModCommon.clsSelectALLEvent.SelectAll_Leave(System.Object,System.EventArgs)">
+ <summary>최초 포커스 1회만 SelectALL되도록 하기위한 변수처리 이벤트</summary>
+</member>
+<member name="F:cspModCommon.SungMinNetworks.KindOfWrite.Jupsu">
+ <summary>접수실</summary>
+</member>
+<member name="F:cspModCommon.SungMinNetworks.KindOfWrite.Jinchal">
+ <summary>진료실</summary>
+</member>
+<member name="F:cspModCommon.SungMinNetworks.KindOfWrite.Optometry">
+ <summary>검안실</summary>
+</member>
+</members>
+</doc>
